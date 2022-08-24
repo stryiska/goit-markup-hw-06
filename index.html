@@ -386,6 +386,7 @@
               <label for="user-name" class="input-title">Ім'я</label>
               <div class="input-wrap">
                 <input
+                  name="user-name"
                   type="text"
                   class="modal-input"
                   id="user-name"
@@ -398,9 +399,15 @@
               <!-- <p class="error">Поле не заповнене або заповнено не вірно</p> -->
             </div>
             <div class="input-field">
-              <label for="user-name" class="input-title">Телефон</label>
+              <label for="user-tel" class="input-title">Телефон</label>
               <div class="input-wrap">
-                <input type="tel" class="modal-input" id="user-tel" required />
+                <input
+                  name="user-tel"
+                  type="tel"
+                  class="modal-input"
+                  id="user-tel"
+                  required
+                />
                 <svg class="input-icon" width="18px">
                   <use href="./images/icons.svg#icon-phone"></use>
                 </svg>
@@ -411,6 +418,7 @@
               <label for="user-email" class="input-title">Пошта</label>
               <div class="input-wrap">
                 <input
+                  name="user-email"
                   type="email"
                   class="modal-input"
                   id="user-email"
