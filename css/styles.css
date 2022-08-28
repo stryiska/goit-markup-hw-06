@@ -931,7 +931,6 @@ background-color: rgba(47, 48, 58, 0.8);
     width: 100%;
 }
 .input-title {
-    margin-bottom: 4px;
     font-weight: 400;
     font-size: 12px;
     line-height: 1.16;
@@ -945,6 +944,9 @@ background-color: rgba(47, 48, 58, 0.8);
     align-items: center;
 
     height: 40px;
+}
+.input-wrap, .comment-wrap {
+    margin-top: 4px;
 }
 
 .modal-input {
@@ -991,7 +993,7 @@ background-color: rgba(47, 48, 58, 0.8);
 
 .comment-wrap {
     width: 100%;
-    height: 96px;
+    height: 120px;
 margin-bottom: 20px;
 }
 .modal-text {
@@ -1010,8 +1012,10 @@ margin-bottom: 20px;
     
     color: rgba(117, 117, 117, 0.5);
 }
+
 .check-field {
     display: flex;
+    justify-content: center;
 }
 
 .check-title {
@@ -1019,11 +1023,11 @@ margin-bottom: 20px;
     align-items: center;
 
     font-weight: 400;
-        font-size: 14px;
-        line-height: 1.71;
+    font-size: 14px;
+    line-height: 1.71;
     
-        letter-spacing: 0.03em;
-        color: var(--main-text-color);
+    letter-spacing: 0.03em;
+    color: var(--main-text-color);
 }
 .check-input:checked + .check-title .check-icon {
     fill: var(--main-background-color);
@@ -1170,6 +1174,3 @@ margin-bottom: 20px;
     display: block;
     outline: red;
 } */
-
-
-
